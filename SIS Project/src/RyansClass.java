@@ -1,21 +1,31 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class RyansClass
 	{
+		ArrayList <Student> races = new ArrayList <Student> ();
 		static Scanner userInput = new Scanner(System.in);
-		public static void sorter()
+		public static void sortStart() throws FileNotFoundException
 			{
-				System.out.println("what would you like to sort the students by?");
-				System.out.println("(1) sort by GPA");
-				System.out.println("(2) sort by last name");
-				System.out.println("(3) sort by class");
-				System.out.println("(4) I dont want to sort the students");
-				int answer = userInput.nextInt();
-				if (answer==1)
-					{
-						
-					}
-		
+			Scanner file= new Scanner( new File( "studentInformation (8).txt" ) );	
+			while(file.hasNext())
+                {
+                	
+                }
+            }
+		public static void GPASorter()
+			{
+				
+			}
+		public static void LastNameSorter() 
+			{
+				
+			}
+		public static void ClassSorter()
+			{
+				
 			}
 
 	}
