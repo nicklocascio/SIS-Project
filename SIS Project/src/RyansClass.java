@@ -17,7 +17,7 @@ public class RyansClass
             }
 		public static void GPASorter()
 			{
-				
+				System.out.println("hello"); 
 			}
 		public static void LastNameSorter() 
 			{
